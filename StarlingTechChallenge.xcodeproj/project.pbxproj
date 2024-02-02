@@ -13,6 +13,10 @@
 		1408F9382B6BB5A00006FE75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1408F9362B6BB5A00006FE75 /* Main.storyboard */; };
 		1408F93A2B6BB5A20006FE75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1408F9392B6BB5A20006FE75 /* Assets.xcassets */; };
 		1408F93D2B6BB5A20006FE75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1408F93B2B6BB5A20006FE75 /* LaunchScreen.storyboard */; };
+		1408F9472B6BBE070006FE75 /* AccountsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1408F9462B6BBE070006FE75 /* AccountsManager.swift */; };
+		1408F9492B6BE5E90006FE75 /* TransactionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1408F9482B6BE5E90006FE75 /* TransactionsManager.swift */; };
+		1408F94B2B6BF4B60006FE75 /* SavingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1408F94A2B6BF4B60006FE75 /* SavingsManager.swift */; };
+		14F7489F2B6D735000E128C0 /* TransferMoneyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F7489E2B6D735000E128C0 /* TransferMoneyManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		1408F9392B6BB5A20006FE75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1408F93C2B6BB5A20006FE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1408F93E2B6BB5A20006FE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1408F9462B6BBE070006FE75 /* AccountsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsManager.swift; sourceTree = "<group>"; };
+		1408F9482B6BE5E90006FE75 /* TransactionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsManager.swift; sourceTree = "<group>"; };
+		1408F94A2B6BF4B60006FE75 /* SavingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsManager.swift; sourceTree = "<group>"; };
+		14F7489E2B6D735000E128C0 /* TransferMoneyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,35 @@
 		1408F92F2B6BB5A00006FE75 /* StarlingTechChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				1408F9452B6BBDCA0006FE75 /* Model */,
+				1408F9442B6BBA490006FE75 /* Controller */,
 				1408F9302B6BB5A00006FE75 /* AppDelegate.swift */,
 				1408F9322B6BB5A00006FE75 /* SceneDelegate.swift */,
-				1408F9342B6BB5A00006FE75 /* ViewController.swift */,
 				1408F9362B6BB5A00006FE75 /* Main.storyboard */,
 				1408F9392B6BB5A20006FE75 /* Assets.xcassets */,
 				1408F93B2B6BB5A20006FE75 /* LaunchScreen.storyboard */,
 				1408F93E2B6BB5A20006FE75 /* Info.plist */,
 			);
 			path = StarlingTechChallenge;
+			sourceTree = "<group>";
+		};
+		1408F9442B6BBA490006FE75 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1408F9342B6BB5A00006FE75 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1408F9452B6BBDCA0006FE75 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1408F9462B6BBE070006FE75 /* AccountsManager.swift */,
+				1408F9482B6BE5E90006FE75 /* TransactionsManager.swift */,
+				1408F94A2B6BF4B60006FE75 /* SavingsManager.swift */,
+				14F7489E2B6D735000E128C0 /* TransferMoneyManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1408F9352B6BB5A00006FE75 /* ViewController.swift in Sources */,
+				14F7489F2B6D735000E128C0 /* TransferMoneyManager.swift in Sources */,
+				1408F94B2B6BF4B60006FE75 /* SavingsManager.swift in Sources */,
 				1408F9312B6BB5A00006FE75 /* AppDelegate.swift in Sources */,
+				1408F9492B6BE5E90006FE75 /* TransactionsManager.swift in Sources */,
 				1408F9332B6BB5A00006FE75 /* SceneDelegate.swift in Sources */,
+				1408F9472B6BBE070006FE75 /* AccountsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
