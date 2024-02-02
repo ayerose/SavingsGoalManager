@@ -16,14 +16,14 @@ let headers = [
         "Authorization": "Bearer \(ProcessInfo.processInfo.environment["ACCESS_TOKEN"] ?? "")"
     ]
 
-    let ACCOUNT_UID = ProcessInfo.processInfo.environment["ACCOUNT_UID"] ?? ""
+let ACCOUNT_UID = ProcessInfo.processInfo.environment["ACCOUNT_UID"] ?? ""
 // define new savings goal
 let newSavingsGoal: [String: Any] = [
-           "name": "Trip to Paris",
+           "name": "New car",
            "currency": "GBP",
            "target": [
                "currency": "GBP",
-               "minorUnits": 123456
+               "minorUnits": 350000
            ]
        ]
     
@@ -40,7 +40,6 @@ guard let url = URL(string:  "https://api-sandbox.starlingbank.com/api/v2/accoun
        }
     
 
-    
 // convert to JSON
      do {
          let jsonData = try JSONSerialization.data(withJSONObject: newSavingsGoal)
@@ -72,6 +71,5 @@ guard let url = URL(string:  "https://api-sandbox.starlingbank.com/api/v2/accoun
     task.resume()
     
 }
-//
 
 }
