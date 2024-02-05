@@ -1,5 +1,5 @@
 
-Main Screen:
+**Main Screen:**
 
 
 ![1](https://github.com/ayerose/StarlingTechChallenge_Soreya/assets/56599409/e3553526-f76f-4790-92eb-01ed8c4a151f)
