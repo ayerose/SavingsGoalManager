@@ -33,7 +33,7 @@ class TransactionsViewController: UIViewController, TransactionManagerDelegate {
         var transactionText = ""
         for transaction in transactions {
             transactionText += " Amount: \(transaction.minorUnitsToString) \(transaction.currency) \n"
-            // ppdate total round-up amount
+            // Update total round-up amount
             let minorUnitsDouble = Double(transaction.minorUnits) / 100.0
             let roundedUpAmount = ceil(minorUnitsDouble) - minorUnitsDouble
             totalRoundUpAmount += roundedUpAmount
@@ -117,7 +117,7 @@ class TransactionsViewController: UIViewController, TransactionManagerDelegate {
             }
         }
     }
-    // show "saving goal" screen
+    
     @IBAction func showSavingGoal(_ sender: Any) {
         performSegue(withIdentifier: "displaySavingsGoal", sender: nil)
     }

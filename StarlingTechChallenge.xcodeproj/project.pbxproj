@@ -25,6 +25,7 @@
 		14BB45BF2B712E2F000E9E5E /* SavingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BB45BE2B712E2F000E9E5E /* SavingsTests.swift */; };
 		14BB45C12B7138C6000E9E5E /* TransactionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BB45C02B7138C6000E9E5E /* TransactionsTests.swift */; };
 		14BB45C32B713F40000E9E5E /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BB45C22B713F40000E9E5E /* AccountTests.swift */; };
+		14BB45C52B714676000E9E5E /* TransferMoneyIntegrationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BB45C42B714676000E9E5E /* TransferMoneyIntegrationTest.swift */; };
 		14D41FF92B6EABB400E376F7 /* TransactionAndSavingsGoalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D41FF82B6EABB400E376F7 /* TransactionAndSavingsGoalData.swift */; };
 		14D41FFB2B6EDEAF00E376F7 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D41FFA2B6EDEAF00E376F7 /* TransactionsViewController.swift */; };
 		14F7489F2B6D735000E128C0 /* TransferMoneyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F7489E2B6D735000E128C0 /* TransferMoneyManager.swift */; };
@@ -62,6 +63,7 @@
 		14BB45BE2B712E2F000E9E5E /* SavingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsTests.swift; sourceTree = "<group>"; };
 		14BB45C02B7138C6000E9E5E /* TransactionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsTests.swift; sourceTree = "<group>"; };
 		14BB45C22B713F40000E9E5E /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
+		14BB45C42B714676000E9E5E /* TransferMoneyIntegrationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyIntegrationTest.swift; sourceTree = "<group>"; };
 		14D41FF82B6EABB400E376F7 /* TransactionAndSavingsGoalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAndSavingsGoalData.swift; sourceTree = "<group>"; };
 		14D41FFA2B6EDEAF00E376F7 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		14F7489E2B6D735000E128C0 /* TransferMoneyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyManager.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				14BB45BE2B712E2F000E9E5E /* SavingsTests.swift */,
 				14BB45C02B7138C6000E9E5E /* TransactionsTests.swift */,
 				14BB45C22B713F40000E9E5E /* AccountTests.swift */,
+				14BB45C42B714676000E9E5E /* TransferMoneyIntegrationTest.swift */,
 			);
 			path = StarlingTechChallengeTests;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				14BB45B82B712C09000E9E5E /* StarlingTechChallengeTests.swift in Sources */,
 				14BB45C32B713F40000E9E5E /* AccountTests.swift in Sources */,
 				14BB45BF2B712E2F000E9E5E /* SavingsTests.swift in Sources */,
+				14BB45C52B714676000E9E5E /* TransferMoneyIntegrationTest.swift in Sources */,
 				14BB45C12B7138C6000E9E5E /* TransactionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

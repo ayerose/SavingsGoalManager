@@ -16,8 +16,6 @@ protocol DisplaySavingsGoalManagerDelegate {
 }
 
 struct DisplaySavingsGoalManager {
-
-    
        let headers = [
            "Accept": "application/json",
            "Content-Type": "application/json",
@@ -26,8 +24,9 @@ struct DisplaySavingsGoalManager {
        
        let ACCOUNT_UID = ProcessInfo.processInfo.environment["ACCOUNT_UID"] ?? ""
        let SAVINGSGOAL_UID = ProcessInfo.processInfo.environment["SAVINGSGOAL_UID"] ?? ""
-    var delegate: DisplaySavingsGoalManagerDelegate?
-    var viewController: UIViewController?
+       var delegate: DisplaySavingsGoalManagerDelegate?
+       var viewController: UIViewController?
+    
     // MARK: retrieve saving goal "New Bose headphones"
     func fetchSavingsGoal() {
             
