@@ -28,6 +28,19 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "14BB45B42B712C09000E9E5E"
+               BuildableName = "StarlingTechChallengeTests.xctest"
+               BlueprintName = "StarlingTechChallengeTests"
+               ReferencedContainer = "container:StarlingTechChallenge.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -52,12 +65,17 @@
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "ACCESS_TOKEN"
-            value = "eyJhbGciOiJQUzI1NiIsInppcCI6IkdaSVAifQ.H4sIAAAAAAAA_21Ty5KcMAz8lRTn1Rav4XXLLT-QDxCyPONasCnbzGYrlX-PwTAMU3uju6WWZIm_iXIu6RKcFAgezbvzaAelrz3qj3cyY_KWuLkPEWnati3JErKiFlCmuQQUtYS-xCzNq7LJawzB_GdKuqxOq7YpijR7SxT6SDRt1S4EEplZ-19mEGx_K7F5I2cN9FUVvGtZQVPTBURWihSRCtEXwdubD9YxI6uytqjaAmSeX6AsygyajFLoL01TFtSnmOchI4z1k4idO-pUXAioMiygbBDDDNQAZalkupRpn5fLwGQmXh4ldgq3tVXQOHJnGcWPF8F_TS-CEqy9kortmR-U8ydmA0LY0GTHQvkHiIr3SLeRH5GzvxmrXNgQKC3UXYkZh6j1OKCmrRNCK4CM9tYM0XdhNs1oqeyIXhkNRoKctdjq0ey8Gfe2eUS1ZY-oBXruBA_s-QHXsJE9BoQdBbiIO14zJ_xi3qUINpMIjiBQI143z6gdn-Ataoe09PygYTAUpj-8IwFmeYZXdsuyRqphLxVrn6g1yjKxmvwJuLP0aVVwd3gPq3BwNUcfJ24b9cStPs9MHE6GZ__G4hC_8TrEaEo3FvPAAsLYx9U49j4MOE8bnHA_k_C7hysKx2SseCp_Zve6Z_abfDCf-sF7XhoAcvdXahIyUs87XVfxuuTk338swQXFoQQAAA.vXvIvgRPi1ln0OmBdInfArryi1CkOWgGudR6RUVuzZ6QjBD2q0Q9JBj2kmU_XA7y98zL8o8dp_58egpcSRjRvE38WF0zm2nQuVRdEPAqJYIo7kEw0q4swvAFbTtL8Y2zADGAqjuLf_v8F5yHozlOPq5z1kLm0pvEunzC8z1z9L8KddylTiHlklQhvfzoWqhewI5mRimo7u3OpAefQvzlaHaSvBabOMRT4hD--HXLtztM5DTMTEtYwgRAGgBNqFRqeU2y8PA6KydiJ-JTd7Jo_U_HERXmU2uPBuZwShIQTyJqp9Yh-YWlwL6lWOZdC14WBqGNVeTnKLOstKRYoIYB1EZmF2f-2k9mw2anQv87VhMUZ-XLzRwZdhe0SdmCICODji832K2ZH0zfqj--JOImmXzpq774KAic_fiQ6h0eSxaNqkIIeTgXtRgRF-vGwL_5UKOGqkQtmRW8y6Hg8lhY_i8QdW6Z9PQItBRt9oeI3n2BUinfDaBswbHbW7hEeGqleqxl9XD7oTHf-h3SuWxvKMUW3E1F0YbcZbB3x4fEmOzB4QbV0vtoJJmPmup-8jID5o2HSdDlNDbYEP6Yr6ju9eUtLS3QfXLgWu9MiiAlHEX-Hg2VkTQMcvVSr7Z0NWx7B_WNuuds1CilKugE_pTZJguzVqhtM3lIAsA_i8D6abg"
+            value = "eyJhbGciOiJQUzI1NiIsInppcCI6IkdaSVAifQ.H4sIAAAAAAAA_21Ty5KcMAz8lRTn1ZZ5DK9bbvmBfICwxIxrwaZsM5utVP49BsMwTO2N7pZakiX-Jsq5pE1wUkA8mnfn0Q5KXzvUH-_SjMlb4uYuRAjRNI3sC0jziqAQWQ9IVQ9dganIyqLOKgzB_GdK2rQSVXppLrV4SxT6SIgqTxcCpTSz9r_MQGx_K9q8kdMaurIM3lVfQl3JC1BakECUOXV58Pbmg3XMyNIm77iQICivoGhYQFMgQs6ioktedLXIQkYY66eU7NxRp-ScoEwxh6IOCUiyBpmKnuWlEF1WLANLM_HyKLFTuK2tgsaRW8tIP14E_zW9CIpYe9Urtmd-UM6fmA0Q2dBky6T8A0TFe5S3kR-Rs78Zq1zYEChN6q5oxiFqHQ6o5daJREsgjfbWDNF3YTbN6F7ZEb0yGkwP_axpqydn5824t80jqi17RE3ouSUe2PMDrmEjewwIWxngIu54zZzwi3mXIthMIjiCQI143TyjdnyCt6gdyqXnBw2DkWH6wzsSYJZneGW3LGt6NeylYu0TtUZZlqwmfwLuLH1aFdwd3sMqHFzN0ceJ20Y9cavPMxOH68Ozf2NxiN94HWI0lTemeWCCMPZxNY69DwPO0wYn3M8k_O7hisIxGUtP5c_sXvfMfpMP5lM_eM9LAyDd_ZWaqI_U807XVbwuOfn3H1L4Q7ChBAAA.rrVpMgsjptnarFlU7XcGpGJ0lHilg46Jv6JqIeWmcaKxKrm9lmHOgMeJ-ekSV9odGDLVEKdUZMQWvD_bO-ZiOsRCOIky98vWKKX3UqxLpVUjglMkiNKzEHSjdwFz-gZOyxmZKCEKdSTAJ1j_-SPe-6gJvCVEIRoqgy-MEanRJcnRDzXnwVaOlWR4KarCrCOORdanPp9iso_jXLYAFy2_wuCdzDeM5OKMtLIYGhT6IyNUx8gUD4P5HjBl8ia3kdUOEcBUz3iGyLCJtQsPPVJ0KRVQ8GFEqaMQpVImRCTFkCLPo1z7AH18HiSAgBtn9z8BiWUmklJP2AksAZzul2iE-vvZeEngvpZ0FlbKO7OgEecLkKMUz5tjsVorswtXiiQYpHHOVHY8EsleqitXzOPJlD2oJ_o5jj5VAlphpjUSqyMY27MHxOM0uw-Abac8FCqPI9ibzTjcTPVS17Nwc-mDmDczMJ3xzBr3lD0i63_hWfzJFwi6kHvUOTa92lGbus41-UuUbtbXv4tIwf2CBnXN16XRQySi7-XneYhRVKaYNaeIkT6B5F1wmXcf_TcOZuaeNMpxzYaz-MLeSZWrsvdMHVOLpnepsDPyoyCUNjHsw8WfvuI5cKu140dhCUbU9jtlV2zz1D-VyrBOs77GzZGvll0m6bwiBxPtIcs1zJzjtd0"
             isEnabled = "YES">
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "ACCOUNT_UID"
             value = "0099fd99-45e9-4266-899f-59ce8341b3e8"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "SAVINGSGOAL_UID"
+            value = "21cf8d39-e944-48b7-b536-51ef2fd1062a"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>

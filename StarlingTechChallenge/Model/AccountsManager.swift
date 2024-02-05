@@ -3,12 +3,8 @@
 //  StarlingTechChallenge
 //
 //  Created by Soreya Koura on 01.02.24.
-//
-//    To make this work, the key parts from our public API you will need are:
-//    1. Accounts - To retrieve accounts for the customer
-//    2. Transaction feed - To retrieve transactions for the customer
-//    3. Savings Goals - Create a savings goals and transfer money to savings goals
-//MARK:  this file is to retrieve accounts for the customer
+
+// This file is to retrieve accounts for the customer
 import Foundation
 
 struct AccountsManager {
@@ -31,7 +27,6 @@ func fetchAccount() {
     for (key, value) in headers {
            request.addValue(value, forHTTPHeaderField: key)
        }
-
     // create session
     let session = URLSession(configuration: .default)
     // create task
@@ -40,9 +35,6 @@ func fetchAccount() {
             print(error!)
             return
         }
-
-        // wenn kein error vorhanden, dann haben wir daten:
-        //da data auch ein optional ist, optional binding:
         if let data = data {
             do {
                 let json = try JSONSerialization.jsonObject(with: data, options: [])
@@ -55,6 +47,4 @@ func fetchAccount() {
     // start task
     task.resume()
 }
-//
-
 }

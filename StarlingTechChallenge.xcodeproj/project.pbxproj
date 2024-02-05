@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		140369DE2B70443C00A4D0B1 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 140369DD2B70443C00A4D0B1 /* background.png */; };
+		140369E02B7044C000A4D0B1 /* backgroundBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 140369DF2B7044BF00A4D0B1 /* backgroundBG.png */; };
+		140369E22B70486400A4D0B1 /* DisplaySavingsGoalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140369E12B70486400A4D0B1 /* DisplaySavingsGoalManager.swift */; };
+		140369E82B705DFD00A4D0B1 /* SavingGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140369E72B705DFD00A4D0B1 /* SavingGoalViewController.swift */; };
 		1408F9312B6BB5A00006FE75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1408F9302B6BB5A00006FE75 /* AppDelegate.swift */; };
 		1408F9332B6BB5A00006FE75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1408F9322B6BB5A00006FE75 /* SceneDelegate.swift */; };
 		1408F9352B6BB5A00006FE75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1408F9342B6BB5A00006FE75 /* ViewController.swift */; };
@@ -16,10 +20,31 @@
 		1408F9472B6BBE070006FE75 /* AccountsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1408F9462B6BBE070006FE75 /* AccountsManager.swift */; };
 		1408F9492B6BE5E90006FE75 /* TransactionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1408F9482B6BE5E90006FE75 /* TransactionsManager.swift */; };
 		1408F94B2B6BF4B60006FE75 /* SavingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1408F94A2B6BF4B60006FE75 /* SavingsManager.swift */; };
+		14BB45AD2B712876000E9E5E /* backgr.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 14BB45AC2B712875000E9E5E /* backgr.jpeg */; };
+		14BB45B82B712C09000E9E5E /* StarlingTechChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BB45B72B712C09000E9E5E /* StarlingTechChallengeTests.swift */; };
+		14BB45BF2B712E2F000E9E5E /* SavingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BB45BE2B712E2F000E9E5E /* SavingsTests.swift */; };
+		14BB45C12B7138C6000E9E5E /* TransactionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BB45C02B7138C6000E9E5E /* TransactionsTests.swift */; };
+		14BB45C32B713F40000E9E5E /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BB45C22B713F40000E9E5E /* AccountTests.swift */; };
+		14D41FF92B6EABB400E376F7 /* TransactionAndSavingsGoalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D41FF82B6EABB400E376F7 /* TransactionAndSavingsGoalData.swift */; };
+		14D41FFB2B6EDEAF00E376F7 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D41FFA2B6EDEAF00E376F7 /* TransactionsViewController.swift */; };
 		14F7489F2B6D735000E128C0 /* TransferMoneyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F7489E2B6D735000E128C0 /* TransferMoneyManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		14BB45B92B712C09000E9E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1408F9252B6BB59F0006FE75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1408F92C2B6BB5A00006FE75;
+			remoteInfo = StarlingTechChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		140369DD2B70443C00A4D0B1 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		140369DF2B7044BF00A4D0B1 /* backgroundBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundBG.png; sourceTree = "<group>"; };
+		140369E12B70486400A4D0B1 /* DisplaySavingsGoalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplaySavingsGoalManager.swift; sourceTree = "<group>"; };
+		140369E72B705DFD00A4D0B1 /* SavingGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingGoalViewController.swift; sourceTree = "<group>"; };
 		1408F92D2B6BB5A00006FE75 /* StarlingTechChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarlingTechChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1408F9302B6BB5A00006FE75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1408F9322B6BB5A00006FE75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,11 +56,26 @@
 		1408F9462B6BBE070006FE75 /* AccountsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsManager.swift; sourceTree = "<group>"; };
 		1408F9482B6BE5E90006FE75 /* TransactionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsManager.swift; sourceTree = "<group>"; };
 		1408F94A2B6BF4B60006FE75 /* SavingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsManager.swift; sourceTree = "<group>"; };
+		14BB45AC2B712875000E9E5E /* backgr.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgr.jpeg; sourceTree = "<group>"; };
+		14BB45B52B712C09000E9E5E /* StarlingTechChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarlingTechChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BB45B72B712C09000E9E5E /* StarlingTechChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarlingTechChallengeTests.swift; sourceTree = "<group>"; };
+		14BB45BE2B712E2F000E9E5E /* SavingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsTests.swift; sourceTree = "<group>"; };
+		14BB45C02B7138C6000E9E5E /* TransactionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsTests.swift; sourceTree = "<group>"; };
+		14BB45C22B713F40000E9E5E /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
+		14D41FF82B6EABB400E376F7 /* TransactionAndSavingsGoalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAndSavingsGoalData.swift; sourceTree = "<group>"; };
+		14D41FFA2B6EDEAF00E376F7 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		14F7489E2B6D735000E128C0 /* TransferMoneyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferMoneyManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1408F92A2B6BB5A00006FE75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BB45B22B712C09000E9E5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				1408F92F2B6BB5A00006FE75 /* StarlingTechChallenge */,
+				14BB45B62B712C09000E9E5E /* StarlingTechChallengeTests */,
 				1408F92E2B6BB5A00006FE75 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				1408F92D2B6BB5A00006FE75 /* StarlingTechChallenge.app */,
+				14BB45B52B712C09000E9E5E /* StarlingTechChallengeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +114,9 @@
 				1408F9392B6BB5A20006FE75 /* Assets.xcassets */,
 				1408F93B2B6BB5A20006FE75 /* LaunchScreen.storyboard */,
 				1408F93E2B6BB5A20006FE75 /* Info.plist */,
+				140369DD2B70443C00A4D0B1 /* background.png */,
+				140369DF2B7044BF00A4D0B1 /* backgroundBG.png */,
+				14BB45AC2B712875000E9E5E /* backgr.jpeg */,
 			);
 			path = StarlingTechChallenge;
 			sourceTree = "<group>";
@@ -80,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				1408F9342B6BB5A00006FE75 /* ViewController.swift */,
+				14D41FFA2B6EDEAF00E376F7 /* TransactionsViewController.swift */,
+				140369E72B705DFD00A4D0B1 /* SavingGoalViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -91,8 +138,21 @@
 				1408F9482B6BE5E90006FE75 /* TransactionsManager.swift */,
 				1408F94A2B6BF4B60006FE75 /* SavingsManager.swift */,
 				14F7489E2B6D735000E128C0 /* TransferMoneyManager.swift */,
+				14D41FF82B6EABB400E376F7 /* TransactionAndSavingsGoalData.swift */,
+				140369E12B70486400A4D0B1 /* DisplaySavingsGoalManager.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		14BB45B62B712C09000E9E5E /* StarlingTechChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				14BB45B72B712C09000E9E5E /* StarlingTechChallengeTests.swift */,
+				14BB45BE2B712E2F000E9E5E /* SavingsTests.swift */,
+				14BB45C02B7138C6000E9E5E /* TransactionsTests.swift */,
+				14BB45C22B713F40000E9E5E /* AccountTests.swift */,
+			);
+			path = StarlingTechChallengeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +175,24 @@
 			productReference = 1408F92D2B6BB5A00006FE75 /* StarlingTechChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
+		14BB45B42B712C09000E9E5E /* StarlingTechChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14BB45BB2B712C09000E9E5E /* Build configuration list for PBXNativeTarget "StarlingTechChallengeTests" */;
+			buildPhases = (
+				14BB45B12B712C09000E9E5E /* Sources */,
+				14BB45B22B712C09000E9E5E /* Frameworks */,
+				14BB45B32B712C09000E9E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14BB45BA2B712C09000E9E5E /* PBXTargetDependency */,
+			);
+			name = StarlingTechChallengeTests;
+			productName = StarlingTechChallengeTests;
+			productReference = 14BB45B52B712C09000E9E5E /* StarlingTechChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -127,6 +205,10 @@
 				TargetAttributes = {
 					1408F92C2B6BB5A00006FE75 = {
 						CreatedOnToolsVersion = 15.2;
+					};
+					14BB45B42B712C09000E9E5E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1408F92C2B6BB5A00006FE75;
 					};
 				};
 			};
@@ -144,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				1408F92C2B6BB5A00006FE75 /* StarlingTechChallenge */,
+				14BB45B42B712C09000E9E5E /* StarlingTechChallengeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -154,8 +237,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1408F93D2B6BB5A20006FE75 /* LaunchScreen.storyboard in Resources */,
+				14BB45AD2B712876000E9E5E /* backgr.jpeg in Resources */,
+				140369DE2B70443C00A4D0B1 /* background.png in Resources */,
 				1408F93A2B6BB5A20006FE75 /* Assets.xcassets in Resources */,
+				140369E02B7044C000A4D0B1 /* backgroundBG.png in Resources */,
 				1408F9382B6BB5A00006FE75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BB45B32B712C09000E9E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140369E82B705DFD00A4D0B1 /* SavingGoalViewController.swift in Sources */,
+				14D41FF92B6EABB400E376F7 /* TransactionAndSavingsGoalData.swift in Sources */,
+				140369E22B70486400A4D0B1 /* DisplaySavingsGoalManager.swift in Sources */,
 				1408F9352B6BB5A00006FE75 /* ViewController.swift in Sources */,
+				14D41FFB2B6EDEAF00E376F7 /* TransactionsViewController.swift in Sources */,
 				14F7489F2B6D735000E128C0 /* TransferMoneyManager.swift in Sources */,
 				1408F94B2B6BF4B60006FE75 /* SavingsManager.swift in Sources */,
 				1408F9312B6BB5A00006FE75 /* AppDelegate.swift in Sources */,
@@ -176,7 +273,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14BB45B12B712C09000E9E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BB45B82B712C09000E9E5E /* StarlingTechChallengeTests.swift in Sources */,
+				14BB45C32B713F40000E9E5E /* AccountTests.swift in Sources */,
+				14BB45BF2B712E2F000E9E5E /* SavingsTests.swift in Sources */,
+				14BB45C12B7138C6000E9E5E /* TransactionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14BB45BA2B712C09000E9E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1408F92C2B6BB5A00006FE75 /* StarlingTechChallenge */;
+			targetProxy = 14BB45B92B712C09000E9E5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1408F9362B6BB5A00006FE75 /* Main.storyboard */ = {
@@ -373,6 +489,42 @@
 			};
 			name = Release;
 		};
+		14BB45BC2B712C09000E9E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NW72UVV4M2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soreya.StarlingTechChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarlingTechChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarlingTechChallenge";
+			};
+			name = Debug;
+		};
+		14BB45BD2B712C09000E9E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NW72UVV4M2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soreya.StarlingTechChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarlingTechChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarlingTechChallenge";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -390,6 +542,15 @@
 			buildConfigurations = (
 				1408F9422B6BB5A20006FE75 /* Debug */,
 				1408F9432B6BB5A20006FE75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14BB45BB2B712C09000E9E5E /* Build configuration list for PBXNativeTarget "StarlingTechChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BB45BC2B712C09000E9E5E /* Debug */,
+				14BB45BD2B712C09000E9E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
