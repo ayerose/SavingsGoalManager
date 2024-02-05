@@ -35,7 +35,7 @@
 
 ![Screenshot 2024-02-05 at 17 07 11](https://github.com/ayerose/StarlingTechChallenge_Soreya/assets/56599409/d0c67e50-2307-4717-9f00-b7cf8baaaf1d)
 
-** Transaction Feed before clicking on the "Calculate Round-Up" Button:**
+**Transaction Feed before clicking on the "Calculate Round-Up" Button:**
 
 ![Screenshot 2024-02-05 at 17 33 54](https://github.com/ayerose/StarlingTechChallenge_Soreya/assets/56599409/2effcb6a-708c-4835-a850-c5b2fd9c85af)
 
