@@ -1,4 +1,4 @@
-# This project implements a "round-up" feature for Starling customers using the Starling public developer API. The feature calculates the rounded-up difference to the nearest pound for all transactions within a given week. This rounded-up amount is then transferred into a savings goal, helping customers save automatically. The key API endpoints used are Accounts to retrieve customer account information, Transaction feed to fetch weekly transactions, and Savings Goals to create and transfer money to savings goals.
+### This project implements a "round-up" feature for Starling customers using the Starling public developer API. The feature calculates the rounded-up difference to the nearest pound for all transactions within a given week. This rounded-up amount is then transferred into a savings goal, helping customers save automatically. The key API endpoints used are Accounts to retrieve customer account information, Transaction feed to fetch weekly transactions, and Savings Goals to create and transfer money to savings goals.
 
 
 
